@@ -1,0 +1,16 @@
+{
+  "components": [
+    {
+      "link": "/kitchen-sink/button",
+      "label": "Button"
+    },
+    {
+      "link": "/kitchen-sink/button-groups",
+      "label": "Button Group Set"
+    },
+    {
+      "link": "/kitchen-sink/notification",
+      "label": "Notification"
+    }
+  ]
+}

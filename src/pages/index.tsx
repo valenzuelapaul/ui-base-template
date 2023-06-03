@@ -1,4 +1,10 @@
 import * as React from 'react';
+import Link from 'next/link';
+
+import Container from '@/components/layouts/Container';
+import KitchenSinkLayout from '@/components/layouts/KitchenSinkLayout';
+
+import components from "./kitchen-sink/links-components.json";
 
 import Layout from '@/components/layout/Layout';
 import ArrowLink from '@/components/links/ArrowLink';
@@ -40,6 +46,15 @@ export default function HomePage() {
             <ButtonLink className='mt-6' href='/components' variant='light'>
               See all components
             </ButtonLink>
+
+            <div className='flex flex-col gap-5'>
+              <h3 className='mb-3'>Components:</h3>
+              {
+                components.components.map((component) => {
+                  return <Link key={component.label} href={component.link}>{component.label}</Link>
+                })
+              }
+            </div>
 
             <UnstyledLink
               href='https://paulreggieevalenzuela.github.io/'
