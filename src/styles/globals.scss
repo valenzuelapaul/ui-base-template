@@ -1,4 +1,6 @@
 @forward './carbon-theme';
+@import './base/typography.scss';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

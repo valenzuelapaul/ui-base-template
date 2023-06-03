@@ -1,0 +1,12 @@
+{
+  "styles": [
+    {
+      "link": "/kitchen-sink/typography",
+      "label": "Typography"
+    },
+    {
+      "link": "/kitchen-sink/elevations",
+      "label": "Elevations"
+    }
+  ]
+}
