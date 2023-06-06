@@ -10,8 +10,8 @@
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Standards / Patterns / Best Practices](#standards-patterns-and-best-practices)
-  - [KISS](#kiss)
-  - [DRY](#dry)
+  - [KISS](#kiss) - Keep it simple stupid!
+  - [DRY](#dry) Do not repeat yourself!
   - [Separation of concerns](#separation-of-concerns)
   - [Styling](#styling)
   - [Typescript](#typescript)
@@ -21,7 +21,7 @@
 
 # Features
 
-- ⚡️ Next.js 12
+- ⚡️ Next.js 13
 - ⚛️ React 18
 - ✨ TypeScript
 - 😎 [Carbon Design System](https://react.carbondesignsystem.com/?path=/story/getting-started-welcome--welcome)
@@ -33,6 +33,14 @@
 - 💖 Prettier — Format your code consistently
 - 🃏 Jest — Configured for unit testing
 - 🤖 Conventional Commit Lint — Make sure you & your teammates follow conventional commit
+
+# Folder Structure
+
+- app - Hooks and stores of the applications
+- components - Collection of components that will be use across the apps
+- features - Redux and state management folder
+- pages - Actual pages of the applications
+- pages/kitchen sink - Collection of the sample components and how to use them
 
 <br/>
 <br/>

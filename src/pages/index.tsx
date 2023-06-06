@@ -6,6 +6,7 @@ import KitchenSinkLayout from '@/components/layouts/KitchenSinkLayout';
 import Seo from '@/components/Seo';
 
 import components from "./kitchen-sink/links-components.json";
+import pages from "./kitchen-sink/links-pages.json";
 import styles from "./kitchen-sink/links-styles.json";
 
 /**
@@ -41,6 +42,11 @@ export default function HomePage() {
               }
               <hr />
               <h3 className='mb-3'>Pages:</h3>
+              {
+                pages.pages.map((page) => {
+                  return <Link key={page.label} href={page.link}>{page.label}</Link>
+                })
+              }
               <hr />
             </div>
 

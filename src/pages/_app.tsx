@@ -12,16 +12,16 @@ function MyApp({ Component, pageProps }: AppProps) {
   // const modalContent = useAppSelector(selectModalContent);
 
   return (
-    <SessionProvider session={pageProps.session}>
-      <Provider store={store}>
+    // <SessionProvider session={pageProps.session}>
+    <Provider store={store}>
 
-        <Component {...pageProps} />
+      <Component {...pageProps} />
 
-        {/* <GlobalModalWrapper /> */}
+      {/* <GlobalModalWrapper /> */}
 
-      </Provider>
+    </Provider>
 
-    </SessionProvider>
+    // </SessionProvider>
   );
 }
 

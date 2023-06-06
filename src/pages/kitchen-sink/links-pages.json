@@ -1,0 +1,16 @@
+{
+  "pages": [
+    {
+      "link": "/login",
+      "label": "Login (WIP)"
+    },
+    {
+      "link": "/sign-up",
+      "label": "User Sign-up (WIP)"
+    },
+    {
+      "link": "/profile",
+      "label": "User Profile"
+    }
+  ]
+}

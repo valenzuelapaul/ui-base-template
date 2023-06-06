@@ -11,6 +11,26 @@
     {
       "link": "/kitchen-sink/notification",
       "label": "Notification"
+    },
+    {
+      "link": "/kitchen-sink/input",
+      "label": "Input (Helpers)"
+    },
+    {
+      "link": "/kitchen-sink/input-dropdown",
+      "label": "Input (Dropdown)"
+    },
+    {
+      "link": "/kitchen-sink/input-variants",
+      "label": "Input (Variants)"
+    },
+    {
+      "link": "/kitchen-sink/nav-dropdown",
+      "label": "Menu"
+    },
+    {
+      "link": "/kitchen-sink/nav-pop-ups",
+      "label": "Menu (2nd Level)"
     }
   ]
 }
