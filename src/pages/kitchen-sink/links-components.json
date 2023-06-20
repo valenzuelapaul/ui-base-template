@@ -1,6 +1,10 @@
 {
   "components": [
     {
+      "link": "/kitchen-sink/alert-bar",
+      "label": "Alert Bar"
+    },
+    {
       "link": "/kitchen-sink/button",
       "label": "Button"
     },
@@ -31,6 +35,10 @@
     {
       "link": "/kitchen-sink/nav-pop-ups",
       "label": "Menu (2nd Level)"
+    },
+    {
+      "link": "/kitchen-sink/modal",
+      "label": "Modal"
     }
   ]
 }
