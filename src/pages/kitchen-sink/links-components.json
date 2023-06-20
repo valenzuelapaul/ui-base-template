@@ -5,12 +5,24 @@
       "label": "Alert Bar"
     },
     {
+      "link": "/kitchen-sink/avatar",
+      "label": "Avatar"
+    },
+    {
       "link": "/kitchen-sink/button",
       "label": "Button"
     },
     {
       "link": "/kitchen-sink/button-groups",
       "label": "Button Group Set"
+    },
+    {
+      "link": "/kitchen-sink/chip",
+      "label": "Chip"
+    },
+    {
+      "link": "/kitchen-sink/counter",
+      "label": "Counter"
     },
     {
       "link": "/kitchen-sink/notification",
