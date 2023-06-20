@@ -4,7 +4,7 @@
   &:global {
     &.cds--btn {
       $this: &;
-      @apply h-[46px] max-h-[46px] min-h-[46px] justify-center border-none px-[24px] py-[12px] text-base text-white shadow-none rounded-sm;
+      @apply h-[46px] max-h-[46px] min-h-[46px] justify-center border-none px-[24px] py-[12px] text-base text-white shadow-none;
       span,
       a {
         @apply flex items-center;
